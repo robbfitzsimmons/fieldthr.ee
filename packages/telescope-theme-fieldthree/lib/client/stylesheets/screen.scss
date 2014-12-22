@@ -1,0 +1,12 @@
+body {
+	background-color: #eeeeee;
+	-webkit-animation: pulse 40s infinite alternate;
+}
+
+@-webkit-keyframes pulse {
+	0% {background-color: #48c4b7;}
+	25% {background-color: #ced665;}
+	50% {background-color: #faae53;}
+	75% {background-color: #ed6a47;}
+	100% {background-color: #eeeeee;}
+}
