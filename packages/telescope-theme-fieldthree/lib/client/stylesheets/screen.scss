@@ -3,9 +3,9 @@
 }
 
 @-webkit-keyframes pulse {
-	0% {-webkit-filter: none;}
-	25% {-webkit-filter: #ced665;}
-	50% {-webkit-filter: #faae53;}
-	75% {-webkit-filter: #ed6a47;}
-	100% {-webkit-filter: #48c4b7;}
+	0% {filter: none;}
+	25% {filter: #ced665;}
+	50% {filter: #faae53;}
+	75% {filter: #ed6a47;}
+	100% {filter: #48c4b7;}
 }
