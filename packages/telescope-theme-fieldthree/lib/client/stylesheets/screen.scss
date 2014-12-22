@@ -1,12 +1,11 @@
-body {
-	background-color: #eeeeee;
+.logo-image {
 	-webkit-animation: pulse 90s infinite alternate;
 }
 
 @-webkit-keyframes pulse {
-	0% {background-color: #48c4b7;}
+	0% {background-color: #eeeeee;}
 	25% {background-color: #ced665;}
 	50% {background-color: #faae53;}
 	75% {background-color: #ed6a47;}
-	100% {background-color: #eeeeee;}
+	100% {background-color: #48c4b7;}
 }
