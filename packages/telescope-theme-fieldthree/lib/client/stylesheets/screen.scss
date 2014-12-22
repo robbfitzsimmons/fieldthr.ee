@@ -1,11 +1,12 @@
-.logo-image img {
-	-webkit-animation: pulse 90s infinite alternate;
+body {
+	background-color: #eeeeee;
+	-webkit-animation: pulse 120s infinite alternate;
 }
 
 @-webkit-keyframes pulse {
-	0% {filter: none;}
-	25% {filter: #ced665;}
-	50% {filter: #faae53;}
-	75% {filter: #ed6a47;}
-	100% {filter: #48c4b7;}
+	0% {background-color: #eeeeee;}
+	25% {background-color: #ced665;}
+	50% {background-color: #faae53;}
+	75% {background-color: #ed6a47;}
+	100% {background-color: #48c4b7;}
 }
