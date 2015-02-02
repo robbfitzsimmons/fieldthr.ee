@@ -1,3 +1,61 @@
+## v0.14.0 “GridScope”
+
+* Adeed Grid Layout option.
+* Cleaned up vote click handling functions and added tests (thanks @anthonymayer!).
+* Added `threadModules` zone.
+* Added `upvoteCallbacks` and `downvoteCallbacks` callback arrays.
+* Fix “post awaiting moderation” message bug.
+* You can now subscribe to comment threads (thanks @delgermurun!).
+* Added `postApproveCallbacks` callback array.
+* Added notifications for pending and approved posts, for admins and end users.
+* Renaming "digest" view to "singleday".
+* Make sure only valid properties can be added to posts and comments.
+* Added newsletter time setting (thanks @anthonymayer!).
+* Change "sign up" to "register" (thanks @Kikobeats!).
+
+## v0.13.0 “ComponentScope”
+
+* Tweaked comments layout in Hubbble theme.
+* Added Bulgarian translation (thanks @toome123!).
+* Cleaned up permission functions (thanks @anthonymayer!).
+* Various fixes (thanks @comerc and @Kikobeats!).
+* Stopped synced-cron message logging.
+* Limit all posts lists to 200 posts.
+* Refactored posts lists to use the template-level subscription pattern when appropriate.
+* Refactored `single day` and `daily` packages.
+* Footer field now accepts Markdown instead of HTML.
+* Feeds can now be assigned to a user.
+* Various CSS tweaks.
+* Fixing newsletter issue.
+* Post rank now has its own module.
+* Changed how field label i18n works. 
+
+## v0.12.0 “DummyScope”
+
+**Important: existing newsletters and feeds need to be manually enabled in the Settings panel** 
+
+* Added "Enable Newsletter" setting. Note: existing newsletters must be re-enabled. 
+* Added "Enable Feeds" settings. Note: existing feeds must be re-enabled.
+* Now showing release notes for latest version right inside the app.
+* Added dummy posts, users, and comments.
+* Added new Events collection for keeping track of important events.
+* Log first run event.
+* `MAIL_URL` environment variable can now be set from Settings.
+* Renamed `viewNav` to `viewsMenu`.
+* Renamed `adminNav` to `adminMenu`.
+* Improvements to the Post by Feed package.
+* Added tests for nav bar (thanks @anthonymayer!).
+* **New and improved [documentation](http://telesc.pe/docs).**
+
+## v0.11.1 “FeedScope”
+
+* Post submit and edit forms now submit to their respective methods directly.
+* Removed `postSubmitRenderedCallbacks` and `postEditRenderedCallbacks`.
+* `telescope-post-by-feed` package now lets you import posts from RSS feeds.
+* Adding limit of 200 posts to post list request.
+* Refactoring post and comment submit to fix latency compensation issues.
+* Tags package now using Autoform. 
+
 ## v0.11.0 “AvatarScope”
 
 * Added new `userCreatedCallbacks` callback hook.

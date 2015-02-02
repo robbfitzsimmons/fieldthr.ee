@@ -54,8 +54,10 @@ Package.onUse(function (api) {
   // client
 
   api.add_files([
-    'lib/client/templates/posts_digest.html',
-    'lib/client/templates/posts_digest.js'
+    'lib/client/templates/single_day.html',
+    'lib/client/templates/single_day.js',
+    'lib/client/templates/single_day_nav.html',
+    'lib/client/templates/single_day_nav.js'
   ], ['client']);
 
   // server
@@ -78,7 +80,8 @@ Package.onUse(function (api) {
   // -------------------------------- 3. Variables to export --------------------------------
 
   api.export([
-    'getDigestURL'
+    'getDigestURL',
+    'PostsDigestController'
   ]);
 
 });
